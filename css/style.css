@@ -1,0 +1,1358 @@
+/* HTML tags */
+html {
+    font-family: arial;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+strong, b {
+    font-family: arial;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background-color: #7e7e7e;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 0;
+}
+
+a, a:visited, a:active, a:link {
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+/* Some other stuff */
+.clear {
+    clear: both;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/****************** Banners ******************/
+#banner {
+    width: 100%;
+    padding: 0;
+}
+
+#banner img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float: left;
+}
+
+.top_promo_section {
+    text-align: center;
+    padding: 9px 0px 9px 0px;
+    color: #ffffff;
+}
+
+.top_promo_section.no_padding {
+    text-align: center;
+    padding: 0 !important;
+    color: #ffffff;
+}
+
+.top_promo_section.bottom_padding {
+    text-align: center;
+    padding: 0px 0px 9px 0px;
+    color: #ffffff;
+}
+
+.promo_banner_img img {
+    width: 100%;
+}
+
+.promo_banner_inner {
+    color: #000000;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background: rgb(242, 242, 242); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(242, 242, 242, 1) 0%, rgba(211, 211, 211, 1) 69%, rgba(191, 191, 191, 1) 86%, rgba(191, 191, 191, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(242, 242, 242, 1)), color-stop(69%, rgba(211, 211, 211, 1)), color-stop(86%, rgba(191, 191, 191, 1)), color-stop(100%, rgba(191, 191, 191, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(242, 242, 242, 1) 0%, rgba(211, 211, 211, 1) 69%, rgba(191, 191, 191, 1) 86%, rgba(191, 191, 191, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(242, 242, 242, 1) 0%, rgba(211, 211, 211, 1) 69%, rgba(191, 191, 191, 1) 86%, rgba(191, 191, 191, 1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(242, 242, 242, 1) 0%, rgba(211, 211, 211, 1) 69%, rgba(191, 191, 191, 1) 86%, rgba(191, 191, 191, 1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(242, 242, 242, 1) 0%, rgba(211, 211, 211, 1) 69%, rgba(191, 191, 191, 1) 86%, rgba(191, 191, 191, 1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#bfbfbf', GradientType=0); /* IE6-9 */
+}
+
+.banner_special_text {
+    font-size: 230%;
+    text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000;
+    font-weight: bolder;
+}
+
+.banner_special_text.green {
+    color: #68cf00;
+}
+
+.banner_special_text.orange {
+    color: #ff9c00;
+}
+
+.banner_special_text.blue {
+    color: #00b7ff;
+}
+
+/****************** Navigation ******************/
+/** Top **/
+#nav a {
+    color: #000000;
+    display: block;
+}
+
+#nav table {
+    font-family: arial;
+    font-weight: bold;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: #d3d8db; /* Old browsers */
+    background: -moz-linear-gradient(top, #d3d8db 0%, #b9bebf 50%, #838889 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d3d8db), color-stop(50%, #b9bebf), color-stop(100%, #838889)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #d3d8db 0%, #b9bebf 50%, #838889 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #d3d8db 0%, #b9bebf 50%, #838889 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #d3d8db 0%, #b9bebf 50%, #838889 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #d3d8db 0%, #b9bebf 50%, #838889 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3d8db', endColorstr='#838889', GradientType=0); /* IE6-9 */
+}
+
+#nav tr td {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#nav tr td.active {
+    background: #61c3fe; /* Old browsers */
+    background: -moz-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #61c3fe), color-stop(50%, #009afb), color-stop(100%, #0678c0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61c3fe', endColorstr='#0678c0', GradientType=0); /* IE6-9 */
+    color: #ffffff !important;
+}
+
+#nav tr td.active a {
+    color: #ffffff !important;
+}
+
+/** Bottom **/
+#bottom_nav {
+    position: relative;
+    text-transform: uppercase;
+}
+
+#bottom_nav.gameloft_club {
+    text-transform: none !important;
+}
+
+#bottom_nav .entry a {
+    color: #ffffff;
+}
+
+#bottom_nav .entry {
+    font-family: arial;
+    background-color: #312f2f;
+    border-bottom: 1px solid #808080;
+    line-height: normal;
+    padding: 10px 0 10px 3px;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+}
+
+#bottom_nav .entry .text {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+#bottom_nav .entry.lvl2 {
+    background-color: #dcdcdc !important;
+    color: #312f2f;
+    text-transform: none;
+}
+
+#bottom_nav .entry.lvl2 a {
+    color: #312f2f;
+}
+
+#bottom_nav .entry.lvl2 .text {
+    display: inline-block;
+    margin-left: 22px;
+    position: relative;
+}
+
+#bottom_nav .nav_arrow {
+    display: inline-block;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 4px;
+    width: 9px;
+    height: 13px;
+    background: url('http://media01.gameloft.com/waptemplate/images/hdplus_full_shop_v4/blue_arrow_right.png') no-repeat;
+    left: 0;
+}
+
+#bottom_nav .nav_arrow_down {
+    display: inline-block;
+    position: absolute;
+    margin-top: 4px;
+    width: 15px;
+    height: 8px;
+    background: url('http://media01.gameloft.com/waptemplate/images/hdplus_full_shop_v4/blue_arrow_down.png') no-repeat;
+    left: 0;
+}
+
+/** LPM Stripe **/
+.lpm_stripe {
+    background-color: #312f2f;
+    color: #ffffff;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/** Footer **/
+#location_nav {
+    font-family: arial;
+    font-weight: bold;
+    display: block;
+    background-color: #5d5d5d;
+    box-shadow: 0px 1px 4px #1e1e1e;
+    color: #bfbfbf;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+}
+
+#location_nav a {
+    color: #bfbfbf;
+}
+
+#location_nav .lnav_img {
+    display: inline-block;
+    height: 14px;
+    position: absolute;
+}
+
+#location_nav #back_btn img, #location_nav #home_btn img {
+    display: inline-block;
+    height: 14px;
+}
+
+#location_nav #back_btn_outer, #location_nav #home_btn_outer {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+#location_nav #home_btn_outer {
+    float: right;
+}
+
+/** Back button specific **/
+#location_nav #back_btn {
+    display: inline-block;
+    position: relative;
+}
+
+#location_nav #back_btn .text {
+    margin-left: 13px;
+    position: relative;
+}
+
+/** Home button specific **/
+#location_nav #home_btn {
+    display: inline-block;
+    position: relative;
+}
+
+#location_nav #home_btn .text {
+    margin-left: 22px;
+    position: relative;
+}
+
+/****************** Contents ******************/
+.contents {
+}
+
+.contents_inner {
+    background-color: #c5c8ca;
+    line-height: 20px;
+}
+
+.centered_contents {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.centered_contents.nbp {
+    padding-bottom: 0px;
+}
+
+/****************** Product page ******************/
+.contents_product {
+    display: block;
+    width: 95%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.contents_product .poster_wrapper {
+    position: relative;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contents_product .poster {
+    display: inline-block;
+    width: 100%;
+}
+
+.contents_product .product_info {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contents_product .game_title_buttons {
+    display: block;
+    padding-top: 16px;
+}
+
+.game_download_info {
+    width: 95%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+/** Product rating **/
+.contents_product .product_rating strong {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.contents_product .game_rating {
+    display: inline-block;
+    height: 19px;
+    vertical-align: middle;
+}
+
+.contents_product .product_rating {
+}
+
+/** Age rating stuff **/
+.contents_product .age_rating {
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contents_product .age_rating .highlight {
+    color: #129170;
+}
+
+/** Description section **/
+.contents_product .game_desc_title {
+    font-family: arial;
+    font-weight: bold;
+    color: #0796f0;
+    text-transform: uppercase;
+}
+
+/** Promote section **/
+.product_promote {
+    font-family: arial;
+    font-weight: bold;
+    background-color: #312f2f;
+    color: #ffffff;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.product_promote .entry {
+    padding-top: 5px;
+    clear: both;
+}
+
+.product_promote img {
+    margin-left: 7px;
+    width: 11px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.product_promote .entry div {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.product_promote .highlight {
+    color: #009bfd;
+}
+
+/****************** Download page ******************/
+.download_header, .download_contents {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.download_header {
+    width: 64%;
+}
+
+.download_contents_outer {
+    background-color: #c5c8ca;
+}
+
+.download_header_outer {
+    background-color: #6a6b6b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.download_contents {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.download_header .game_title {
+    color: #ffffff;
+}
+
+.download_box {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.download_box .btn_bblue_bg {
+    padding-bottom: 2px;
+}
+
+/****************** Prebuy page ******************/
+.game_header_outer {
+    background-color: #c5c8ca;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.game_header {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.centered_contents.payment {
+    background-color: #7e7e7e;
+}
+
+.payment .payment_method {
+    color: #ffffff;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.payment .payment_method .method_image_vertical {
+    float: left;
+}
+
+.payment .payment_method .method_info {
+    margin-left: 30px;
+}
+
+.payment .method_info .method_text {
+    font-family: arial;
+    color: #b2ddf8;
+    font-weight: bold;
+}
+
+.payment .method_info .method_contents {
+    margin-top: 8px;
+}
+
+.payment .method_info .inline_image {
+    float: left;
+}
+
+/*** Common styles with the Gameloft Club login page and the MyDownloads page ***/
+.payment .method_info .method_button,
+.login .method_button,
+.downloads .method_button {
+    display: inline-block;
+    float: right;
+    margin-left: 5px;
+}
+
+.downloads .btn_bblue_bg {
+    padding: 5px !important;
+}
+
+.payment .outer_input,
+.login .outer_input,
+.downloads .outer_input {
+    width: 60%;
+    float: left;
+    margin-right: 8px;
+}
+
+.payment .outer_input .styled_input,
+.login .outer_input .styled_input,
+.downloads .outer_input .styled_input {
+    width: 100%;
+}
+
+.payment .method_button.special,
+.login .method_button.special,
+.downloads .method_button.special {
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+}
+
+.payment .btn_bblue_bg,
+.login .btn_bblue_bg,
+.downloads .btn_bblue_bg {
+    padding: 8px;
+}
+
+/****************** Gameloft Club Login page ******************/
+.login {
+    color: #ffffff;
+}
+
+.login .container_button_bg {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.login .outer_input {
+    width: 50%;
+}
+
+.login .method_button.special {
+    margin-left: 10px;
+}
+
+/****************** My Downloads page ******************/
+.downloads {
+    color: #ffffff;
+}
+
+.downloads .container_button_bg {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.downloads .top_text {
+    font-family: arial;
+    font-weight: bold;
+}
+
+.downloads .outer_input {
+    width: 50%;
+}
+
+.downloads .method_button.special {
+    margin-left: 10px;
+}
+
+.my_account {
+    color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/****************** GA Promote ******************/
+.promote_option {
+    float: left;
+    width: 50%;
+}
+
+/* Used by the promote buttons */
+.promote_option .btn_bblue_bg {
+    width: 50%;
+}
+
+/* This is used by the button in the promote page by the bottom text at the bottom of the page */
+.promote_adv.btn_bblue_bg {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+}
+
+/** Input fields background **/
+.styled_input {
+    display: inline-block;
+    padding: 4px;
+    border-radius: 3px;
+    width: 60%;
+    box-shadow: 2px 2px 1px #424242;
+    background: #999999; /* Old browsers */
+    background: -moz-linear-gradient(top, #999999 0%, #797979 50%, #525252 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #999999), color-stop(50%, #797979), color-stop(100%, #525252)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #999999 0%, #797979 50%, #525252 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #999999 0%, #797979 50%, #525252 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #999999 0%, #797979 50%, #525252 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #999999 0%, #797979 50%, #525252 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#525252', GradientType=0); /* IE6-9 */
+}
+
+.styled_input input {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 25px;
+}
+
+.styled_input input[type=text],
+.styled_input input[type=password] {
+    display: block;
+    width: 100%;
+    border: 0;
+}
+
+/****************** Game image, button, title ******************/
+.game_image {
+    min-height: 56px;
+    position: relative;
+}
+
+.game_image img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+}
+
+.game_title {
+    font-family: arial;
+    display: inline-block;
+    margin-left: 60px;
+    color: #312f2f;
+    font-weight: bold;
+}
+
+.game_title a {
+    color: #312f2f;
+}
+
+.game_button.game_price {
+    margin-top: 3px;
+    text-align: left;
+}
+
+/****************** Game listing ******************/
+#game_list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#game_list .game_box {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    border-bottom: 2px solid #696969;
+    background-color: #dcdcdc;
+    color: #312f2f;
+}
+
+#game_list .game_contents {
+    height: 109px;
+    padding: 5px;
+    border-right: 2px solid #696969;
+}
+
+#game_list .game_box:nth-child(even) > div {
+    border-right: 0px !important;
+}
+
+#game_list .game_rating {
+    position: relative;
+    float: left;
+    left: 58px;
+    bottom: 7px;
+}
+
+#game_list .game_rating img {
+    width: 11px;
+}
+
+/****************** Buttons backgrounds and buttons ******************/
+/** Buttons **/
+.rate_button,
+.game_button,
+.more_games,
+.already_member {
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000;
+    color: #efeded !important;
+}
+
+.game_button a {
+    color: #efeded !important;
+}
+
+.rate_button .btn_dblue_bg,
+.game_button .btn_green_bg,
+.game_button .btn_dblue_bg {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.rate_button {
+    font-size: 12px;
+}
+
+.rate_button .btn_dblue_bg {
+    border-radius: 6px;
+}
+
+.btn_bblue {
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn_bblue .btn_bblue_arrow {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/** Button backgrounds **/
+.btn_green_bg {
+    position: relative;
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #23b58f; /* Old browsers */
+    background: -moz-linear-gradient(top, #23b58f 0%, #169374 50%, #0e7058 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #23b58f), color-stop(50%, #169374), color-stop(100%, #0e7058)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #23b58f 0%, #169374 50%, #0e7058 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #23b58f 0%, #169374 50%, #0e7058 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #23b58f 0%, #169374 50%, #0e7058 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #23b58f 0%, #169374 50%, #0e7058 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#23b58f', endColorstr='#0e7058', GradientType=0); /* IE6-9 */
+}
+
+.btn_dblue_bg {
+    position: relative;
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #336b8c; /* Old browsers */
+    background: -moz-linear-gradient(top, #336b8c 0%, #1c748d 50%, #003745 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #336b8c), color-stop(50%, #1c748d), color-stop(100%, #003745)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #336b8c 0%, #1c748d 50%, #003745 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #336b8c 0%, #1c748d 50%, #003745 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #336b8c 0%, #1c748d 50%, #003745 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #336b8c 0%, #1c748d 50%, #003745 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#336b8c', endColorstr='#003745', GradientType=0); /* IE6-9 */
+}
+
+.btn_bblue_bg {
+    display: inline-block;
+    position: relative;
+    border-radius: 6px;
+    padding: 6px 15px 6px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 1px 1px 2px #424242;
+    background: #61c3fe; /* Old browsers */
+    background: -moz-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #61c3fe), color-stop(50%, #009afb), color-stop(100%, #0678c0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61c3fe', endColorstr='#0678c0', GradientType=0); /* IE6-9 */
+}
+
+/** For download page, for example **/
+.container_button_bg {
+    border-radius: 6px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 2px 2px 1px #424242;
+    background: #8a8a8a; /* Old browsers */
+    background: -moz-linear-gradient(top, #bababa 0%, #5d5d5d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bababa), color-stop(100%, #5d5d5d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #bababa 0%, #5d5d5d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #bababa 0%, #5d5d5d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #bababa 0%, #5d5d5d 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #9f9f9f 0%, #2f2f2f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bababa', endColorstr='#5d5d5d', GradientType=0); /* IE6-9 */
+}
+
+.btn_bblue_bg button,
+.btn_dblue_bg button,
+.btn_green_bg button {
+    background: none;
+    border: 0px;
+    font-family: inherit;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-shadow: 1px 1px 1px #000000;
+    text-transform: inherit;
+}
+
+.btn_green_blue_bg {
+    position: relative;
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    color: #f0efef;
+    text-shadow: 1px 1px 1px #000000;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #0f8c74 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e5799), color-stop(100%, #0f8c74)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1e5799 0%, #0f8c74 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1e5799 0%, #0f8c74 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1e5799 0%, #0f8c74 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #1e5799 0%, #0f8c74 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#0f8c74', GradientType=0); /* IE6-9 */
+}
+
+/****************** Entire screen length buttons ******************/
+.more_games,
+.already_member {
+    width: 100% !important;
+}
+
+/****************** Delimiters ******************/
+.delimiter {
+    height: 3px;
+}
+
+.delimiter_6 {
+    height: 6px;
+}
+
+.delimiter_12 {
+    height: 12px;
+}
+
+.section_title {
+    font-family: arial;
+    font-weight: bold;
+    background-color: #312f2f;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.promo_stripe {
+    background-color: #6a6a6a;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/****************** Footer ******************/
+.footer {
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #7e7e7e;
+}
+
+.footer.grey {
+    background-color: #c5c8ca;
+}
+
+/****************** Search box ******************/
+#search_box_outer {
+    display: block;
+    text-align: center;
+}
+
+#search_box {
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    border-radius: 3px;
+    padding-right: 27px !important;
+    width: 60%;
+    background: #999999; /* Old browsers */
+    background: -moz-linear-gradient(top, #999999 0%, #797979 50%, #525252 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #999999), color-stop(50%, #797979), color-stop(100%, #525252)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #999999 0%, #797979 50%, #525252 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #999999 0%, #797979 50%, #525252 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #999999 0%, #797979 50%, #525252 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #999999 0%, #797979 50%, #525252 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#525252', GradientType=0); /* IE6-9 */
+}
+
+#search_box_outer .styled_input {
+    padding-right: 27px !important;
+}
+
+#search_box input, #search_box_outer .styled_input input {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 25px;
+}
+
+#search_box input[type=text], #search_box_outer .styled_input input[type=text] {
+    display: block;
+    width: 100%;
+    border: 0;
+}
+
+#search_box input[type=image], #search_box_outer .styled_input input[type=image] {
+    float: right;
+    position: absolute;
+    padding: 0;
+}
+
+/*************************** RESPONSIVE LISTING ***************************/
+/* 2 game per row with bigger height */
+@media screen and (max-width: 255px) {
+    #game_list .game_contents {
+        height: 140px;
+    }
+}
+
+/* Some text adjustments */
+@media screen and (max-width: 240px), screen and (max-width: 320px) {
+    #game_list .game_title {
+        word-break: break-all;
+    }
+}
+
+
+/* 3 games per row */
+@media screen and (min-width: 540px) {
+    #game_list .game_box {
+        width: 33.33%;
+    }
+
+    #game_list .game_box:nth-child(even) > div {
+        border-right: 2px solid #696969 !important;
+    }
+
+    #game_list .game_box:nth-child(3n+3) > div {
+        border-right: 0px !important;
+    }
+}
+
+/* 3 games per row with adjustments */
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+
+    /****************** Game listing ******************/
+    #game_list .game_contents {
+        height: 151px;
+    }
+
+    #game_list .game_rating {
+        left: 94px;
+        bottom: 10px;
+    }
+
+    #game_list .game_rating img {
+        width: auto !important;
+    }
+
+    /****************** Game image, button, title ******************/
+    .game_image {
+        min-height: 90px;
+    }
+
+    .game_image img {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+    }
+
+    .game_title {
+        font-size: 16px !important;
+        margin-left: 92px;
+    }
+
+    /****************** Buttons backgrounds and buttons ******************/
+    /** Buttons **/
+    .game_button {
+        font-size: 16px;
+    }
+
+    .rate_button {
+        font-size: 14px;
+    }
+}
+
+/* 4 games per row */
+@media screen and (min-width: 1000px) {
+
+    /****************** Game listing ******************/
+    #game_list .game_box {
+        width: 25%;
+    }
+
+    #game_list .game_box:nth-child(even) > div {
+        border-right: 2px solid #696969 !important;
+    }
+
+    #game_list .game_box:nth-child(3n+3) > div {
+        border-right: 2px solid #696969 !important;
+    }
+
+    #game_list .game_box:nth-child(4n+4) > div {
+        border-right: 0px !important;
+    }
+}
+
+/**************** FROM V2.5 ****************/
+/* Gameloft Account Button CSS */
+.ga_button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button_type_ga {
+    font-family: arial;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none !important;
+    font: 100% Verdana;
+    padding: 0.2em 0.2em !important;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    font-weight: bold;
+    position: relative;
+}
+
+.ga_gradient {
+    color: #ffffff !important;
+    border: solid 1px #f8a624;
+    background: #f8a624;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fde8c5), to(#f8a624));
+    background: -moz-linear-gradient(top, #fde8c5, #f8a624);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FDE8C5', endColorstr='#F8A624');
+}
+
+.ga_service_text {
+    white-space: nowrap;
+    color: rgb(27, 54, 99);
+    line-height: 24px;
+    font-size: 24px;
+}
+
+.ga_other_text {
+    color: rgb(80, 72, 59);
+    font-size: 12px;
+    line-height: 12px;
+}
+
+/* PayPal Access */
+.ppa_button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button_type_ppa {
+    font-family: arial;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 100% Verdana;
+    padding: 0.2em 0.2em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    font-weight: bold;
+    position: relative;
+}
+
+.paypal_gradient {
+    color: #ffffff;
+    border: solid 1px #f8a624;
+    background: #f8a624;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fde8c5), to(#f8a624));
+    background: -moz-linear-gradient(top, #fde8c5, #f8a624);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FDE8C5', endColorstr='#F8A624');
+}
+
+.ppa_service_text {
+    white-space: nowrap;
+    color: rgb(27, 54, 99);
+    line-height: 24px;
+    font-size: 24px;
+}
+
+.ppa_service_text_1 {
+    color: #33679a;
+}
+
+.ppa_other_text {
+    color: rgb(80, 72, 59);
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.extra_content {
+    text-align: center;
+}
+
+.extra_content a {
+    color: #ffffff;
+}
+
+#nav table tr td {
+    border-left: 2px outset #d6d6d6;
+}
+
+#nav table tr td:first-child {
+    border-left: 0;
+}
+
+#nav table tr td.selected {
+    background: #61c3fe; /* Old browsers */
+    background: -moz-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #61c3fe), color-stop(50%, #009afb), color-stop(100%, #0678c0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #61c3fe 0%, #009afb 50%, #0678c0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61c3fe', endColorstr='#0678c0', GradientType=0); /* IE6-9 */
+    color: #ffffff !important;
+}
+
+#nav table tr td.selected a {
+    color: #ffffff !important;
+}
+
+/* Pagination */
+
+.pagination {
+    background-color: #3E4347;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border: 1px solid #34383B;
+    width: 38px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF !important;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 17px !important;
+    padding-bottom: 17px !important;
+    margin-top: 5px !important;
+    margin-left: 4px !important;
+    font-weight: bold;
+}
+
+.pagination_active{
+    background-color: #242424;
+}
+
+.pagination_container{
+    text-align: center;
+}
+
+.gameBlockIndex
+{
+	background: #7e7e7e;
+	border-bottom: 1px solid #DDDDDD;
+	cursor: pointer;
+	height: 111px;
+	overflow: hidden;
+	position: relative;
+}
+.inGameBlockDer{
+	min-height:70px;
+	/*acer picasso*/
+	background-color: #7e7e7e;
+}
+.gameBlockDer
+{
+	/*
+	height: auto;
+	margin-left: 50%;
+	background: url("http://wapshop.gameloft.com/php5/generic_site/hdplus_full_shop_v2.5/images/gradient.png") no-repeat;
+	padding-left: 10%;
+	padding-bottom: 0px;
+	*/
+	position: absolute;
+	right: 0;
+	width: 50%;
+	height: 111px;
+	margin-right: 0px !important;
+	background: #7e7e7e;
+    /*
+    margin-left: 35%;
+    margin-right: 0px;
+    padding-bottom: 0;
+    */
+    padding-left: 5%;
+    padding-top: 5px;
+}
+.gameImg
+{
+	display: inline;
+	vertical-align: middle; 
+	float: left;
+	/*margin-top: 8px;*/
+    margin-left: 4px;
+	margin-top: 5px;
+    min-height: 111px;
+	max-width: 150px;
+}
+.gameTitle{
+	color: #ffffff;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+.gameDescription{
+    color: #ffffff;
+	font-family:Arial,Helvetica,sans-serif;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.gameTitle a{
+	color: #ffffff;
+}
+.gameDescription a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.imageGameBlock{
+	color: #02d6fc;
+	margin-left: 5px;
+	z-index: 999999;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 0;
+	text-align: center;	
+	display: table-row;
+	position: relative;
+}
+/*****************************************/
+.carousel, .carousel2  {
+    margin: 0 0 20px 10px;
+    position: relative;
+}
+.main {
+	text-align: center;
+	margin: 0 auto;
+}        
+.carousel .prev, .carousel .next {
+	display: block;
+	float: left;
+	width: 37px;
+	height: 80px;
+	text-decoration: none;
+	background: url(http://wapshop.gameloft.com/php5/generic_site/hdplus_full_shop_v2.5/images/icon_arrow_l.png) left no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+	margin-left: 0px;
+	z-index: 3;
+}
+.carousel .next {
+	background: url(http://wapshop.gameloft.com/php5/generic_site/hdplus_full_shop_v2.5/images/icon_arrow_r.png) right no-repeat;
+	margin-left: 278px;
+	z-index: 2
+}  
+.carousel2 .prev2, .carousel2 .next2 {
+	display: block;
+	float: left;
+	width: 37px;
+	height: 80px;
+	text-decoration: none;
+	background: url(http://wapshop.gameloft.com/php5/generic_site/hdplus_full_shop_v2.5/images/icon_arrow_l.png) left no-repeat;
+	position: relative;
+    top: 14px;
+}
+.carousel2 .next2 {
+	background: url(http://wapshop.gameloft.com/php5/generic_site/hdplus_full_shop_v2.5/images/icon_arrow_r.png) right no-repeat;
+}  
+.carousel .jCarouselLite, .carousel2 .jCarouselLite {
+	float: left;
+	/* Needed for rendering without flicker */
+	position: relative;
+	visibility: hidden;
+	left: -5000px;
+}
+.carousel ul, .carousel2 ul {
+	margin: 0;
+}
+
+#videoContent{
+    margin-left: 3px;
+    height: 203px;
+    width: 313px;
+    padding: 3px 0px 0px 1px;
+    background: #000;
+}
+#videoContent2{
+    margin-left: 3px;
+    height: 200px;
+    width: 314px;
+    background: #000;
+    color: #fff;    
+}
+#mediaContenedor{
+    width: 320px;
+    margin: 0 auto;
+    /*height: 260px;*/
+}
+
